@@ -4,17 +4,17 @@ library(dplyr)
 
 ### For this Section run all lines of code, read instructions starting at line 47
 
-ProjectA <- read_excel("Hours_Predict_R.xlsx",
+ProjectA <- read_excel("RscriptCodeSpace/Hours_Predict_R.xlsx",
                        sheet = "Project A",
                        range = "B2:G100",
                        col_names = TRUE)
 
-ProjectB <- read_excel("Hours_Predict_R.xlsx",
+ProjectB <- read_excel("RscriptCodeSpace/Hours_Predict_R.xlsx",
                        sheet = "Project B",
                        range = "B2:G100",
                        col_names = TRUE)
 
-ProjectC <- read_excel("Hours_Predict_R.xlsx",
+ProjectC <- read_excel("RscriptCodeSpace/Hours_Predict_R.xlsx",
                        sheet = "Project C",
                        range = "B2:G100",
                        col_names = TRUE)
