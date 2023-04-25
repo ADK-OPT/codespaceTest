@@ -2,12 +2,12 @@ library(tidyverse)
 library(readxl)
 library(dplyr)
 
-ProjectA <- read_excel(path = "Hours_Predict_R.xlsx",
+ProjectA <- read_excel(path = "RscriptCodeSpace/Hours_Predict_R.xlsx",
                        sheet = "Project A",
                        range = "B2:G100",
                        col_names = TRUE)
 
-ProjectB <- read_excel(path = "Hours_Predict_R.xlsx",
+ProjectB <- read_excel(path = "RscriptCodeSpace/Hours_Predict_R.xlsx",
                        sheet = "Project B",
                        range = "B2:G100",
                        col_names = TRUE)
