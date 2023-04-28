@@ -6,4 +6,5 @@ Click Create Codespace
 
 This will take some time
 
-when the code space loads
+when the code space loads click to open the RscriptCodeSpace
+
